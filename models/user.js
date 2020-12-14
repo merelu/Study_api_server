@@ -52,5 +52,6 @@ module.exports = class User extends (
       as: "Followings",
       through: "Follow",
     });
+    db.User.hasMany(db.Domain);
   }
 };
