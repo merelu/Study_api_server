@@ -21,7 +21,7 @@ router.get("/test", async (req, res, next) => {
     }
     //발급받은 토큰 테스트
     const result = await axios.get("http://localhost:8002/v1/test", {
-      header: {
+      headers: {
         authorization: req.session.jwt,
       },
     });
