@@ -1,0 +1,23 @@
+{
+  "name": "nodecat",
+  "version": "0.0.1",
+  "description": "노드버드 2차 서비스",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": "https://github.com/merelu/Study_api_server.git",
+  "author": "GYUHA_HWANG <gyuha0310@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
